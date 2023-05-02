@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Cookie Setter",
+  "version": "1.0",
+  "description": "Sets a YouTube cookie.",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
