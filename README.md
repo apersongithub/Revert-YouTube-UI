@@ -7,3 +7,4 @@ document.cookie = "PREF=f6=8";
 
 
 your youtube ui should be back to normal!
+feel free to update this code into and extension or modify it however you like!
