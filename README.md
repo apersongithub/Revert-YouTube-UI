@@ -6,4 +6,4 @@ a temporary solution to revert to the old ui. the new ui was put into effect sin
 document.cookie = "PREF=f6=8";
 
 
-# Your youtube ui should be back to normal!
+your youtube ui should be back to normal!
