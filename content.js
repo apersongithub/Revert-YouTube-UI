@@ -32,7 +32,7 @@ function openYoutubeVideoInTab(e) {
   var link = e.target.closest('[href^="/watch"]');
   if (!link || (link.getAttribute('href') || '').match(/^(javascript|#|$)/) || link.href.replace(/#.*/, '') == location.href.replace(/#.*/, '')) return;
   
-  window.open(link.href, '_blank');
+  window.open(link.href, '_self');
   e.preventDefault();
 }
 
