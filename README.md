@@ -1,4 +1,4 @@
-# Revert-Youtube-UI
+# Revert-YouTube-UI
 ![image](https://user-images.githubusercontent.com/72956230/235823261-90d377f1-94e0-4363-a849-455e61e8caef.png)
 
 a temporary solution to revert to the old ui. the new ui was put into effect since april and is slowly rolling out to users.
