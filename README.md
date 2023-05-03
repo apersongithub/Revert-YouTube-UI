@@ -3,6 +3,8 @@
 
 a temporary solution to revert to the old ui. the new ui was put into effect since april and is slowly rolling out to users.
 
+# Features
+- runs automatically no need to manually do anything after installation
 
 # Steps
 Download the <a href="https://github.com/apersongithub/Revert-YouTube-UI/releases/">latest release</a>
@@ -26,6 +28,10 @@ feel free to contribute or send a pull request
 
 # Tutorial
 https://www.youtube.com/watch?v=CpR0jTX4iUA
+
+# How it works
+This extension allows you to modify the 'PREF' cookie, which is responsible for the theme settings, and open YouTube in a non-dynamic manner, making it possible for the extension to change the URL.
+
 
 # Donate
 <a href="https://www.buymeacoffee.com/aperson" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
