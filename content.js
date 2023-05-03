@@ -26,7 +26,11 @@ function setCookie(name, value, days, domain, path) {
 // Set the PREF cookie
 setCookie("PREF", "f6=8", 365, ".youtube.com", "/");
 
-// Reload to prevent any issues
+// Check if the URL begins with "https://www.youtube.com/watch"
 if (window.location.href.startsWith("https://www.youtube.com/watch")) {
-  window.location.reload();
+  // Reload the page once
+  if (!sessionStorage.getItem("reloaded")) {
+    sessionStorage.setItem("reloaded", true);
+    window.location.reload();
+  }
 }
