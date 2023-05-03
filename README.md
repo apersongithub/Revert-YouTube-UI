@@ -5,7 +5,7 @@ a temporary solution to revert to the old ui. the new ui was put into effect sin
 
 
 # Steps
-Download the latest release
+Download the <a href="https://github.com/apersongithub/Revert-YouTube-UI/releases/">latest release</a>
 
 goto chrome://extensions
 (make sure developer mode is enabled)
