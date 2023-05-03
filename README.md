@@ -13,3 +13,6 @@ You're good to go!
 your youtube ui should be back to normal!
 
 feel free to contribute or send a pull request
+
+# Buy me a coffee
+https://www.buymeacoffee.com/aperson
