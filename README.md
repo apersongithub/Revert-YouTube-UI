@@ -30,7 +30,7 @@ feel free to contribute or send a pull request
 https://www.youtube.com/watch?v=CpR0jTX4iUA
 
 # How it works
-This extension allows you to modify the 'PREF' cookie, which is responsible for the theme settings, and open YouTube in a non-dynamic manner, making it possible for the extension to change the URL.
+This extension allows you to modify the 'PREF' cookie, which is responsible for the theme settings, and open YouTube in a non-dynamic manner, making it possible for the extension to change the URL autonomously.
 
 
 # Donate
