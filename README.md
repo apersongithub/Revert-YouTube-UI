@@ -6,8 +6,9 @@ a temporary solution to revert to the old ui. the new ui was put into effect sin
 # Features
 - runs automatically no need to manually do anything after installation
 
-# Steps
-Download the <a href="https://github.com/apersongithub/Revert-YouTube-UI/releases/">latest release</a>
+# Steps (for chromium based browsers only) ![Internet-chromium-icon](https://user-images.githubusercontent.com/72956230/236043122-0efca4d4-a0dd-4e41-a988-3987abf47c4d.png)
+
+Download the <a href="https://github.com/apersongithub/Revert-YouTube-UI/releases/">latest release</a> (make sure its the .zip file)
 
 goto chrome://extensions
 
@@ -16,6 +17,29 @@ goto chrome://extensions
 Drag the zip file to the extensions page
 
 You're good to go!
+
+**If it still doesn't work I would recommend refreshing youtube on the homepage atleast once**
+
+Im working on a css version/perm fix so this wont be an issue
+
+your youtube ui should be back to normal!
+
+feel free to contribute or send a pull request
+
+# Steps (for firefox/gecko based browsers only) ![image](https://user-images.githubusercontent.com/72956230/236042813-7fd67995-87b6-4d89-94dc-2c4974a81fc1.png)
+
+
+Download the <a href="https://github.com/apersongithub/Revert-YouTube-UI/releases/">latest release</a> (make sure its the .crx file)
+
+goto about:debugging
+
+goto this firefox browser
+
+click load temporary addon
+
+Select the crx file and click done
+
+You're good to go! **(I haven't fully tested firefox so create an issue if it doesn't work)**
 
 **If it still doesn't work I would recommend refreshing youtube on the homepage atleast once**
 
