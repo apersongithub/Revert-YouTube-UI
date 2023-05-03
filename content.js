@@ -26,16 +26,14 @@ function setCookie(name, value, days, domain, path) {
 // Set the PREF cookie
 setCookie("PREF", "f6=8", 365, ".youtube.com", "/");
 
-function openYoutubeVideoInTab() {
-  var links = document.querySelectorAll('[href^="/watch"]');
+function openYoutubeVideoInTab(e) {
+  if (e.button > 1 || e.altKey) return;
   
-  links.forEach(function(link) {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      var newTab = window.open(link.href, '_blank');
-      newTab.focus();
-    });
-  });
+  var link = e.target.closest('[href^="/watch"]');
+  if (!link || (link.getAttribute('href') || '').match(/^(javascript|#|$)/) || link.href.replace(/#.*/, '') == location.href.replace(/#.*/, '')) return;
+  
+  window.open(link.href, '_blank');
+  e.preventDefault();
 }
 
-window.addEventListener('load', openYoutubeVideoInTab);
+window.addEventListener('mouseup', openYoutubeVideoInTab, true);
