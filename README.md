@@ -12,6 +12,9 @@ goto chrome://extensions
 Drag the zip file to the extensions page
 You're good to go!
 
+If it still doesn't work I would recommend refreshing youtube on the homepage atleast once
+
+Im working on a css version/perm fix so this wont be an issue
 
 your youtube ui should be back to normal!
 
