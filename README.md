@@ -8,7 +8,7 @@ a temporary solution to revert to the old ui. the new ui was put into effect sin
 
 # Steps (for chromium based browsers only) ![Internet-chromium-icon](https://user-images.githubusercontent.com/72956230/236043122-0efca4d4-a0dd-4e41-a988-3987abf47c4d.png)
 
-Download the <a href="https://github.com/apersongithub/Revert-YouTube-UI/releases/">latest release</a> (make sure its the .zip file)
+Download the <a href="https://github.com/apersongithub/Revert-YouTube-UI/releases/">latest release</a> **(make sure its the .zip file)**
 
 goto chrome://extensions
 
@@ -29,7 +29,7 @@ feel free to contribute or send a pull request
 # Steps (for firefox/gecko based browsers only) ![image](https://user-images.githubusercontent.com/72956230/236042813-7fd67995-87b6-4d89-94dc-2c4974a81fc1.png)
 
 
-Download the <a href="https://github.com/apersongithub/Revert-YouTube-UI/releases/">latest release</a> (make sure its the .zip (recommended) or .crx file))
+Download the <a href="https://github.com/apersongithub/Revert-YouTube-UI/releases/">latest release</a> **(make sure its the .zip (recommended) or .crx file))**
 
 goto about:debugging
 
