@@ -5,7 +5,8 @@ a temporary solution to revert to the old ui. the new ui was put into effect sin
 
 
 # Steps
-Download the latest version
+Download the latest release
+
 goto chrome://extensions
 (make sure developer mode is enabled)
 Drag the zip file to the extensions page
