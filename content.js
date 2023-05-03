@@ -25,3 +25,8 @@ function setCookie(name, value, days, domain, path) {
 
 // Set the PREF cookie
 setCookie("PREF", "f6=8", 365, ".youtube.com", "/");
+
+// Reload to prevent any issues
+if (window.location.href.startsWith("https://www.youtube.com/watch")) {
+  window.location.reload();
+}
