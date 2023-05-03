@@ -26,11 +26,16 @@ function setCookie(name, value, days, domain, path) {
 // Set the PREF cookie
 setCookie("PREF", "f6=8", 365, ".youtube.com", "/");
 
-// Check if the URL begins with "https://www.youtube.com/watch"
-if (window.location.href.startsWith("https://www.youtube.com/watch")) {
-  // Reload the page once
-  if (!sessionStorage.getItem("reloaded")) {
-    sessionStorage.setItem("reloaded", true);
-    window.location.reload();
-  }
+function openYoutubeVideoInTab() {
+  var links = document.querySelectorAll('[href^="/watch"]');
+  
+  links.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      var newTab = window.open(link.href, '_blank');
+      newTab.focus();
+    });
+  });
 }
+
+window.addEventListener('load', openYoutubeVideoInTab);
