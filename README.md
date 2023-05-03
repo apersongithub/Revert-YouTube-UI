@@ -15,7 +15,7 @@ Drag the zip file to the extensions page
 
 You're good to go!
 
-If it still doesn't work I would recommend refreshing youtube on the homepage atleast once
+**If it still doesn't work I would recommend refreshing youtube on the homepage atleast once**
 
 Im working on a css version/perm fix so this wont be an issue
 
