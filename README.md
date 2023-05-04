@@ -5,6 +5,11 @@ a temporary solution to revert to the old ui. the new ui was put into effect sin
 
 # Features
 - runs automatically no need to manually do anything after installation
+- lightweight no loops in the code
+- opens youtube on install to prevent issues
+- uses cookie method instead of url
+- works for everyone even if you haven't modified the pref cookie before
+- firefox support
 
 # Steps (for chromium based browsers only) ![Internet-chromium-icon](https://user-images.githubusercontent.com/72956230/236043122-0efca4d4-a0dd-4e41-a988-3987abf47c4d.png)
 
