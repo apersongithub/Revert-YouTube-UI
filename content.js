@@ -28,6 +28,7 @@ setCookie("PREF", "f6=8", 365, ".youtube.com", "/");
 //the function is self explanatory but the new update doesnt force open it in a new tab anymore
 function openYoutubeVideoInTab(e) {
   if (e.button > 1 || e.altKey) return;
+  if (e.target.classList.contains('ytp-scrubber-pull-indicator')) return;
   
   var link = e.target.closest('[href^="/watch"]');
   if (!link || (link.getAttribute('href') || '').match(/^(javascript|#|$)/) || link.href.replace(/#.*/, '') == location.href.replace(/#.*/, '')) return;
