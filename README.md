@@ -34,7 +34,7 @@ feel free to contribute or send a pull request
 # Steps (for firefox/gecko based browsers only) ![image](https://user-images.githubusercontent.com/72956230/236042813-7fd67995-87b6-4d89-94dc-2c4974a81fc1.png)
 
 
-Download the <a href="https://github.com/apersongithub/Revert-YouTube-UI/releases/">latest release</a> **(make sure its the .zip (recommended) or .crx file))**
+Download the <a href="https://github.com/apersongithub/Revert-YouTube-UI/releases/">latest release</a> **(make sure its the .xpi (recommended) or .zip file))**
 
 (you can skip everything below and just go to this link https://addons.mozilla.org/en-US/firefox/addon/revert-youtube-ui/ or follow alternative steps)
 
