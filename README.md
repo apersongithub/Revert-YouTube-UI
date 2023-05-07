@@ -33,7 +33,7 @@ your youtube ui should be back to normal!
 
 feel free to contribute or send a pull request
 
-# Steps (for firefox/gecko based browsers only) ![image](https://user-images.githubusercontent.com/72956230/236042813-7fd67995-87b6-4d89-94dc-2c4974a81fc1.png)
+# Steps (for firefox/gecko based browsers only) ![Firefox_logo,_2019 svg](https://user-images.githubusercontent.com/72956230/236657665-e8a16e8e-6933-49a3-a43d-3ce1cba29faf.png)
 
 (you can skip everything below and just go to this link https://addons.mozilla.org/en-US/firefox/addon/revert-youtube-ui/ or follow alternative steps)
 
