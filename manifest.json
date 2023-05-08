@@ -1,19 +1,20 @@
 {
-  "manifest_version": 2,
-  "name": "YouTube Cookie Setter",
-  "version": "1.0",
-  "description": "Sets a YouTube cookie.",
+  "manifest_version": 3,
+  "name": "Revert YouTube UI",
+  "version": "1.1",
+  "description": "Reverts new desktop YouTube UI implemented in April 2023.",
   "content_scripts": [
     {
-      "matches": ["https://www.youtube.com/*"],
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "matches": ["https://*.youtube.com/*"]
     }
   ],
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html"
   },
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  }
+    "service_worker": "background.js",
+    "permissions": ["scripting", "activeTab"]
+  },
+  "host_permissions": ["https://*.youtube.com/*"]
 }
