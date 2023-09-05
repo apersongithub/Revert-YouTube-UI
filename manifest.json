@@ -1,19 +1,18 @@
 {
-  "manifest_version": 2,
   "name": "YouTube Cookie Setter",
   "version": "1.0",
   "description": "Sets a YouTube cookie.",
+  "manifest_version": 3,
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
       "js": ["content.js"]
     }
   ],
-  "browser_action": {
+  "action": {
     "default_popup": "popup.html"
   },
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "service_worker": "background.js"
   }
 }
