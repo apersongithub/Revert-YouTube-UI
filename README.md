@@ -3,7 +3,7 @@
 
 a temporary solution to revert to the old ui. the new ui was put into effect since april and is slowly rolling out to users.
 
-**NEW PEOPLE PLEASE USE THE LATEST PRE RELEASE https://github.com/apersongithub/Revert-YouTube-UI/releases/tag/v1.0.4**
+**NEW PEOPLE PLEASE USE THE LATEST PRE RELEASE https://github.com/apersongithub/Revert-YouTube-UI/releases/tag/v1.0.3.1**
 
 # Features
 - runs automatically no need to manually do anything after installation
